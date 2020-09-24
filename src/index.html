@@ -66,6 +66,9 @@
 
     <div class="relative">
 
+      <!-- purple bar to help with the section transition  -->
+      <div class="absolute bottom-0 inset-x-0 h-64 bg-purple-700"></div>
+
       <div class="container mx-auto px-6 lg:px-0 py-24 text-center">
 
         <!-- heading -->
@@ -110,19 +113,229 @@
 
   <!-- ===================================================================================== -->
   <!-- overview -->
+
+  <div class="relative bg-purple-700 lg:pt-12 pb-24">
+
+    <!-- gray bar to help section transition -->
+    <div class="absolute bottom-0 inset-x-0 h-64 bg-gray-300"></div>
+
+    <div class="relative container mx-auto px-6 lg:px-0">
+
+      <h2 class="mb-10 text-4xl lg:text-6xl font-bold text-purple-100">Writing CSS is tough stuff!</h2>
+
+      <div class="lg:flex lg:space-x-16 space-y-8 lg:space-y-0">
+
+        <!-- left column -->
+        <div class="lg:w-2/3 bg-white p-12 lg:p-16 rounded shadow-2xl text-gray-800 text-lg space-y-8 leading-relaxed">
+          <p>Tailwind makes writing CSS easier and lets us customize our designs faster than any other CSS framework. If
+            you want a CSS framework that has pre-built components, then Tailwind may not be for you. If you want a CSS
+            framework that lets you design quickly and customize your site, then <strong
+              class="font-bold text-teal-500">Tailwind is gonna be a lot of fun.</strong></p>
+
+          <p>After using Bulma to build <a href="https://scotch.io" class="text-blue-500 hover:underline">Scotch.io</a>,
+            my CSS files became littered with my own <code
+              class="inline-block text-xs px-1 rounded bg-red-200 text-teal-700 font-mono">!important</code> classes to
+            override the framework's styles. Tailwind doesn't have the <code
+              class="inline-block px-1 rounded bg-red-200 text-teal-700 text-xs font-mono">!important</code> problem
+            since all our elements are designed on the fly.</p>
+
+          <p>Important Note: Tailwind lets us design quickly, but this doesn't mean that you don't need CSS knowledge
+            however. To use Tailwind, you need to have a good understanding of CSS properties. In this course, we will
+            learn Tailwind and we'll also learn CSS concepts to create good looking designs. <strong
+              class="font-bold">Tailwind is the ultimate CSS shorthand</strong>, but we still need to learn the CSS,
+            which we'll do in this course.</p>
+
+          <p class="relative text-3xl italic"><span
+              class="absolute top-0 left-0 transform -translate-x-6 -translate-y-6 text-purple-600 text-6xl opacity-50">"</span>This
+            isn't just a Tailwind course. This is also a "learn how to design with CSS" course.</p>
+
+          <p>The hardest things about learning Tailwind is memorizing the classes and also knowing which classes go well
+            together. We'll be writing a lot of Tailwind in this course so that the repetition will help us commit
+            Tailwind classes to memory.</p>
+
+        </div>
+
+        <!-- right column -->
+        <div class="flex-grow space-y-4 text-lg italic">
+          <div class="p-10 rounded-lg bg-purple-800 text-purple-200">What classes should I use?</div>
+          <div class="p-10 rounded-lg bg-purple-800 text-purple-200">How do I make things look good?</div>
+          <div class="p-10 rounded-lg bg-purple-800 text-purple-200">My design looks basic?</div>
+          <div class="p-10 rounded-lg bg-purple-800 text-purple-200">How do I do responsive?</div>
+          <div class="p-10 rounded-lg bg-purple-800 text-purple-200">Why does my typography look so bad?</div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
   <!-- ===================================================================================== -->
 
   <!-- ===================================================================================== -->
   <!-- about me -->
+
+  <div class="lg:pt-12 pb-24 bg-gray-300 lg:text-center">
+    <div class="container mx-auto px-6 lg:px-0">
+
+      <h2 class="mb-3 text-3xl lg:text-6xl font-bold text-teal-900">Some Tailwind Videos I've done</h2>
+      <p class="mb-12 lg:text-xl leading-loose">Hey there! My name is <a href="#"
+          class="text-blue-500 hover:underline">Chris on Code</a> and I founded a web dev tutorial site Scotch.io. We
+        were able to grow to 4M monthly pageviews and $300,000 yearly revenue. Scotch.io was acquired by DigitalOcean in
+        November 2019. Nowadays I'm in search of the best ways to develop and design a business. Hope you enjoy this
+        course and my other one MakeReactApps.com.</p>
+
+      <!-- Videos -->
+
+      <div class="lg:flex lg:space-x-8 text-left space-y-8 lg:space-y-0">
+        <div class="lg:w-1/2 bg-white border-2 border-gray-700 rounded">
+          <p class="text-gray-700 text-lg p-4">I have a Getting started with Tailwind article on scotch.io and a 15
+            minute starter YouTube video.
+            <iframe class="w-full rounded-b" height="315" src="https://www.youtube.com/embed/6zIuAyLZPH0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </p>
+        </div>
+        <div class="lg:w-1/2 bg-white border-2 border-gray-700 rounded">
+          <p class="text-gray-700 text-lg p-6">I did a Build Your 1st Tailwind Site for Traversy Media on YouTube also.
+            <iframe class="w-full rounded-b" height="315" src="https://www.youtube.com/embed/NRagrTU_v8o"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
   <!-- ===================================================================================== -->
 
   <!-- ===================================================================================== -->
   <!-- what you'll learn -->
   <!-- ===================================================================================== -->
 
+  <div class="py-32 bg-gray-200 text-gray-700">
+    <div class="container mx-auto px-6 lg:px-0">
+
+      <!-- header -->
+      <div class="relative">
+        <h2 class="mb-24 text-4-xl lg:text-6xl text-center font-bold text-purple-900">What You'll Learn In This Course
+        </h2>
+        <div
+          class="absolute w-1/3 h-2 top-0 left-0 rounded bg-gradient-to-r from-blue-400 to-purple-600 transform -translate-y-4">
+        </div>
+        <div
+          class="absolute w-1/3 h-2 bottom-0 right-0 rounded bg-gradient-to-r from-purple-400 to-blue-600 transform translate-y-4">
+        </div>
+      </div>
+
+      <!-- grid area of things -->
+      <div class="lg:grid grid-cols-6 gap-10 space-y-8 lg:space-y-0">
+
+        <div class="col-span-2 border border-gray-700 rounded shadow-lg ">
+
+          <div class="p-4 border-b border-gray-700 flex items-center justify-between">
+            <h3 class=" font-bold text-lg">How to use Tailwind classes</h3>
+            <div class="flex space-x-2">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+          </div>
+
+          <p class="p-4">We'll dive into the most important Tailwind classes and use them a TON. There are a lot of
+            useful classes
+            like spacing, backgrounds, borders, shadows, and typography. We'll type the Tailwind classes many times over
+            to ensure that repeitition is our greatest learning tool.
+          </p>
+        </div>
+
+        <div class="col-span-2 border border-gray-700 rounded shadow-lg">
+
+          <div class="p-4 flex items-center justify-between border-b border-gray-700 rounded shadow-lg">
+
+            <h3 class="font-bold text-lg">Make good looking designs</h3>
+            <div class="flex space-x-2">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+
+          </div>
+
+          <p class="p-4">There's a certain process to designing with Tailwind that we'll take to make our designs look
+            good. Some
+            easy to remember rules are all it takes to get a good design. We'll also talk about ideas and action items
+            to take a good design and make it great.</p>
+        </div>
+
+        <div class="col-span-2 border border-gray-700 rounded shadow-lg">
+
+          <div class="flex items-center justify-between p-4 border-b border-gray-700">
+            <h3 class="font-bold text-lg">Why Tailwind is different/better</h3>
+            <div class="flex space-x-2">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+          </div>
+          <p class="p-4">To be completely honest, I didn't like Tailwind at first. It felt like inline styles to me (and
+            maybe still
+            does). After using it more and more though, I've come to absolutely love it. I dread jumping into a project
+            without Tailwind now.</p>
+        </div>
+
+        <div class="col-span-3 border border-gray-700 rounded shadow-lg">
+          <div class="flex items-center justify-between p-4 border-b border-gray-700">
+            <h3 class="font-bold text-lg">How to build this site (site-ception!)</h3>
+            <div class="flex space-x-2">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+          </div>
+          <p class="p-4">The site you're on (BeginnerTailwind.com) is built with Tailwind and has 0 custom css.</p>
+          <p class="p-4">You can take all of the code from this site and use it for your own landing pages or sites! All
+            the code is
+            available to you with course purchase.</p>
+        </div>
+
+        <div class="col-span-3 border border-gray-700 rounded shadow-lg">
+          <div class="flex items-center justify-between p-4 border-b border-gray-700">
+            <h3 class="font-bold text-lg">A fun and methodical design process</h3>
+            <div class="flex space-x-2">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+          </div>
+          <p class="p-4">I struggle with making things look good and don't consider myself a designer. What I try to do
+            is have a
+            formula for making things look good. I focus on design in this order: spacing, box properties, typography,
+            fun element to pop. We'll talk about this all throughout the course.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
   <!-- ===================================================================================== -->
   <!-- what we'll build -->
   <!-- ===================================================================================== -->
+
+  <div class="py-24 bg-gray-300">
+    <div class="container mx-auto px-6 lg:px-0">
+
+      <div class="mb-8">
+        <h2 class="mb-2">What We'll build in this course</h2>
+        <p>These components are things you'll have to create in every project.</p>
+      </div>
+
+    </div>
+  </div>
+
 
   <!-- ===================================================================================== -->
   <!-- pricing -->
